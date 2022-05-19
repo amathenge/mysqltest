@@ -24,11 +24,11 @@
             <tbody>
                 {% for row in data %}
                 <tr>
-                    <td scope="row">{{ data.id }}</td>
-                    <td>{{ data.firstname }}</td>
-                    <td>{{ data.lastname }}</td>
-                    <td>{{ data.phone }}</td>
-                    <td>{{ data.email }}</td>
+                    <td scope="row">{{ row.id }}</td>
+                    <td>{{ row.firstname }}</td>
+                    <td>{{ row.lastname }}</td>
+                    <td>{{ row.phone }}</td>
+                    <td>{{ row.email }}</td>
                 </tr>
                 {% endfor %}
             </tbody>
