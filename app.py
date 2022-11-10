@@ -2,6 +2,8 @@ from flask import Flask, render_template
 from flask_mysqldb import MySQL
 import cred
 
+# mysql connection using Python/Flask
+
 app = Flask(__name__)
 app.secret_key = cred.secret_key
 app.config['MYSQL_HOST'] = cred.mysql_host
