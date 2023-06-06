@@ -1,5 +1,4 @@
 cred.py
-database.py
 __pycache__/*
 archive/*
 *.db
