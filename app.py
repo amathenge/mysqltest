@@ -12,11 +12,8 @@ app = Flask(__name__)
 import database
 mysql = database.mysql
 
-@app.template_filter('nl2br')
-def nl2br(item):
-    if isinstance(item, str):
-        return item.replace('\n','<br>')
-    return item
+# import template filters for jinja2
+from jfilters import *
 
 @app.route('/')
 def home():

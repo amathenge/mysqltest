@@ -13,3 +13,8 @@ app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
 
 mysql = MySQL(app)
 
+
+# notes:
+# requires installation of pkg-config (via sudo apt)
+# requires installation of default-libmysqlclient-dev (via sudo-apt)
+# requires installation of flask-mysqldb (via pip)
